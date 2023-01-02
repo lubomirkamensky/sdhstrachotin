@@ -1,0 +1,210 @@
+/* IMPORT SDILENYCH NASTAVENI ========================== */
+@import url("database.css");
+@import url("icons.css");
+@import url("tools.css");
+@import url("rpc.css");
+@import url("web.css");
+@import url("window.css");
+/* MAPY ================================================ */
+body {
+	background-color: #ffffff;	
+	margin: 0; padding: 0 5 5 5px;
+	text-align: center;
+}
+body, table {
+	font-family: Verdana, "Geneva CE", lucida, sans-serif; font-size: 12px;
+}
+/* LAYOUT ============================================== */
+table.layout {
+	margin: 0 auto 0 auto;
+	width: 852px; height: 100%;
+}
+table.layout td.main,
+table.layout td.left {
+	padding: 0;
+	vertical-align: top;
+}
+/* MAIN ================================================ */
+table.layout td.main {	
+	width: 602px;
+}
+table.layout td.main h3 {
+	background-color: #e6f8db;
+	font-size: 16px;
+	margin: 5 0 5 0px; padding: 5px;
+	text-align: center;
+}
+table.layout td.main h4 {
+	font-size: 14px;
+	margin: 0 0 10 0px;
+}
+table.layout td.main p {
+	margin: 0; padding: 5 0 5 0px;
+}
+table.layout td.main fieldset {
+	border: 1px solid #808080;
+	margin: 2.5 0 2.5 0px; padding: 5px;
+}
+table.layout td.main fieldset legend {
+	color: #808080;
+}
+table.layout td.main ol {
+	margin: 0; padding: 0 0 0 2.5em;
+	_width: 100%;
+}
+table.layout td.main div.first,
+table.layout td.main div.second {
+	margin: 0 0 10 0px; padding: 5px;
+}
+table.layout td.main div.first a,
+table.layout td.main div.second a {
+	color: #ff0000;
+	font-size: 11px; font-weight: bold;
+}
+table.layout td.main div.second {
+	background-color: #f1fdea;
+}
+/* obrazky u popisu mapoveho bodu */
+table.layout td.main img.foto {
+	border: 1px solid #000000;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#666666', Direction=135, Strength=3);
+	float: left;
+	margin: 0 5 0 0px;
+	width: 250px; /* zmensime velikost velke fotografie (500) */
+}
+table.layout td.main div.images div.ico {	
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#666666', Direction=135, Strength=3);
+}
+table.layout td.main div.images div.ico {
+	background-color: #e6f8db;
+}
+table.layout td.main div.images div.ico a img {
+	border-color: #000000;
+}
+/* detailni mapy, prehledy, ...------------------------- */
+table.layout td.main div.content {
+	_width: 100%;
+}
+table.layout td.main div.content div.maps {
+	position: relative;
+}
+table.layout td.main div.content div.maps div.sheet {
+	position: absolute;
+}
+table.layout td.main div.content div.maps div.sheet a {
+	background: url("../images/transparent.gif");
+	text-decoration: none;
+	width: 100%; height: 100%;
+}
+table.layout td.main div.content div.maps div.sheet > a {
+	display: block;
+}
+table.layout td.main div.content div.maps div.sheet a:hover {
+	border: 2px solid #f03435;
+}
+table.layout td.main div.content div.map {	
+	border:1px solid #000000;
+	position: relative;
+	margin: 11 0 0 0px;
+}
+table.layout td.main div.content div.map div.point {
+	position: absolute;
+}
+table.layout td.main div.content div.map div.point a {
+	float: left;
+	display: none;
+}
+table.layout td.main div.content div.map div.point a#active {
+	display: block;
+}
+/* tabulka v prehledu map */
+table.layout td.main div.content div.preview table td {
+	vertical-align: top;
+}
+/* legenda pro tisk */
+table.layout td.main div.content fieldset.legend {
+	display: none;
+}
+/* okno s detailem ------------------------------------- */
+table.layout td.main div.detail {
+	_float: left; /* IE zobrazuje div i kdyz nema zadny obsah (posunuje mapu dolu) */
+}
+table.layout td.main div.detail div.window {
+	background-color: #ffffff;
+	border-color: #000000;
+	width: 550px; height: 350px;
+}
+table.layout td.main div.detail div.window h3 {
+	clear: both;	/* zruseni obtekani fotogalerie kdyz je vice sluzeb pod sebou */
+	text-align: left;
+}
+table.layout td.main div.detail div.window div.files,
+table.layout td.main div.detail div.window div.images {
+	_height: auto;
+}
+/* LEVY SLOUPEC ======================================== */
+table.layout td.left {
+	width: 250px;
+}
+table.layout td.left div.content {
+	padding-left: 10px;
+}
+table.layout td.left div.content fieldset {
+	border: 1px solid #000000;
+	margin: 2.5 0 2.5 0px; padding: 2.5px;
+}
+table.layout td.left div.content fieldset legend {
+	color: #000000;
+	font-weight: bold;
+}
+/* info o moznosti zaskrtnout policka v legende */
+table.layout td.left div.content fieldset div.info {
+	background: none;
+	border-bottom: 1px solid #000000;
+	color: #ff0000;
+	font-size: 85%;
+	padding: 2.5px;	
+	text-align: center;
+}
+table.layout td.left div.content fieldset table td {
+	padding: 0;
+	vertical-align: top;
+}
+table.layout td.left div.content fieldset.menu ul {
+	margin: 0; padding: 0;
+}
+table.layout td.left div.content fieldset.menu ul li {
+	list-style: none;
+	margin: 0 2.5 5 2.5px;
+}
+table.layout td.left div.content fieldset.preview div.preview {	
+	position: relative;
+	padding: 0;
+}
+table.layout td.left div.content fieldset.preview div.preview div.sheet {
+	position: absolute;
+}
+table.layout td.left div.content fieldset.preview div.preview div.sheet a {
+	background: url("../images/transparent.gif");
+	text-decoration: none;
+	width: 100%; height: 100%;	
+}
+table.layout td.left div.content fieldset.preview div.preview div.sheet>a {
+	display: block;	
+}
+table.layout td.left div.content fieldset.preview div.preview div.sheet a:hover,
+table.layout td.left div.content fieldset.preview div.preview div.sheet a.active {
+	border: 2px solid #f03435;
+}
+/* TISK ================================================ */
+@media print {
+	table.layout td.left {
+		display: none;
+	}
+	table.layout td.main div.detail div.window {
+		width: 100%; height: auto;
+	}
+	table.layout td.main div.content fieldset.legend {
+		display: block;
+	}
+}

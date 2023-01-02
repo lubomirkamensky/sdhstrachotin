@@ -1,0 +1,29 @@
+body {
+	margin: 0; padding: 10px;
+}
+/* box s obrazkem */
+body div.image {
+	text-align: center;
+}
+/* obrazek */
+body div.image a img {
+	border: 0;
+}
+/* popis obrazku */
+body div.image div.text {
+	padding-top: 10px;
+	text-align: center;
+}
+/* navigace */
+body div.image div.navigation {
+	padding: 0 0 10 0px;
+}
+body div.image div.navigation a {
+	text-align: center;
+	padding: 0 2.5 0 2.5px;	
+}
+/* odkazy na obrazky */
+body div.image div.links a {
+	display: none;
+	padding: 0 2.5 0 2.5px;	
+}

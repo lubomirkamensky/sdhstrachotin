@@ -1,0 +1,141 @@
+/* IMPORT SDILENYCH NASTAVENI ========================== */
+@import url("../shared/css/application.css");
+@import url("../shared/css/database.css");
+@import url("../shared/css/icons.css");
+@import url("../shared/css/menu.css");
+@import url("../shared/css/rpc.css");
+@import url("../shared/css/table_layout.css");
+@import url("../shared/css/tools.css");
+@import url("../shared/css/window.css");
+@import url("../shared/css/web.css");
+/* ===================================================== */
+body {
+	background: #B13626 url(../images/bg/body.jpg) no-repeat center top;
+	background-attachment: fixed;
+	color: #000000;
+	text-align: center;
+}
+body, table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 14px;
+}
+a {
+	color: #B13626;
+}
+a:hover {
+	color: #000000;
+}
+/* LAYOUT ============================================== */
+table.layout {
+	margin: 30px auto 15px auto;
+	text-align: left;
+	width: 980px;
+}
+/* top ------------------------------------------------- */
+table.layout td.top {
+	background: url(../images/bg/top.png) no-repeat;
+	height: 10px;
+}
+/* head ------------------------------------------------ */
+table.layout td.head {
+	background: url(../images/bg/head.jpg) no-repeat;
+	height: 281px;
+}
+/* left ------------------------------------------------ */
+table.layout td.left {
+	background-color: #F3EED1;
+	width: 248px;
+}
+table.layout td.left div.content {
+}
+/* menu */
+table.layout td.left div.content ul.menu {
+	background: url(../images/bg/menu.jpg) no-repeat bottom;
+	padding: 0 0 14 0px;
+}
+table.layout td.left div.content ul.menu li a {
+	background: url(../images/bg/menu_item.jpg) no-repeat;
+	color: #F3EED1;
+	font-size: 16px; font-weight: bolder;
+	padding: 15 0 0 70px;
+	text-decoration: none;
+	width: 248px; height: 38px; _height: 53px;
+}
+table.layout td.left div.content ul.menu li > a {
+	display: block;
+	width: auto;
+}
+table.layout td.left div.content ul.menu li a:hover {
+	color: #B13626;
+}
+table.layout td.left div.content ul.menu li ul {
+	background-color: #a1a08e;
+	left: 248px; top: 0;
+	width: 200px;
+}
+table.layout td.left div.content ul.menu li ul li a {
+	background: none;
+	border-bottom: 2px solid #000000;
+	padding: 5 0 5 15px;
+	width: 200px; height: 20px; _height: 30px;
+}
+table.layout td.left div.content ul.menu li ul li > a {
+	width: auto;
+}
+/* main ------------------------------------------------ */
+table.layout td.main {
+	background-color: #F3EED1;
+	width: 732px;
+}
+table.layout td.main div.content {
+	padding: 0 10 10 5px;
+}
+table.layout td.main div.content h3 {
+	color: #900;
+	font-size: 26px;
+	margin-top: 0px; padding-top: 0px;
+}
+table.layout td.main div.content h4 {
+	color: #900;
+	font-size: 22px;
+}
+table.layout td.main div.content h5 {
+	color: #900;
+	font-size: 18px;
+}
+table.layout td.main div.content div.text {
+	line-height: 140%;
+}
+/* fotogalerie */
+table.layout td.main div.content div.images div.ico {
+	background-color: #ffffff;
+	line-height: 100%;
+}
+table.layout td.main div.content div.images div a img,
+table.layout td.main div.content img.foto {	
+	border: none;
+}
+table.layout td.main div.content img.foto {
+	margin: 2.5px;
+}
+table.layout td.main div.content a img.foto {
+	padding: 0; margin: 0;
+}
+/* uriznute ikony u souboru a nastroju (pokud je mala velikost pisma) */
+table.layout td.main div.content div.alert,
+table.layout td.main div.content div.info,
+table.layout td.main div.content div.files div.ico a {
+	padding: 2.5 0 2.5 20px;
+}
+/* bottom ---------------------------------------------- */
+table.layout td.bottom {
+	background: url(../images/bg/bottom.png) no-repeat;
+	height: 35px;
+}
+table.layout td.bottom div.content {
+	color: #F3EED1;
+	font-size: 12px;
+	text-align: center;	
+}
+table.layout td.bottom div.content a {
+	color: #F3EED1;
+}

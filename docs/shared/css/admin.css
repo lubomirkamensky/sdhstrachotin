@@ -1,0 +1,145 @@
+/* IMPORT SDILENYCH NASTAVENI ========================== */
+@import url("bookmark.css");
+@import url("database.css");
+@import url("document.css");
+@import url("calendar.css");
+@import url("editor.css");
+@import url("elements.css");
+@import url("icons.css");
+@import url("rpc.css");
+@import url("tools.css");
+@import url("tree.css");
+@import url("web.css");
+/* ADMINISTRACE ======================================== */
+body {
+	background-color: Window;
+	font-family: sans-serif;
+	margin: 0; padding: 0;
+}
+body, table {
+	font-size: 13px;
+}
+iframe.machine {
+	border: 0;
+	margin: 0; padding: 0;
+}
+/* NEVIGACE MEZI APLIKACEMI ============================ */
+div.bookmarks ul.switches {
+	padding: 5 5 0 5px; _padding-top: 7.5px;
+}
+/* LAYOUT ============================================== */
+table.layout {
+	margin: 0; padding: 0;
+	width: 100%;
+}
+table.layout td.logo,
+table.layout td.top,
+table.layout td.head,
+table.layout td.navigation,
+table.layout td.left,
+table.layout td.main {
+	padding: 0;
+	vertical-align: top;
+}
+table.layout td.logo div.content,
+table.layout td.top div.content,
+table.layout td.head div.content,
+table.layout td.navigation div.content,
+table.layout td.left div.content,
+table.layout td.main div.content {
+	padding: 5px;
+	_width: 100%;
+}
+/* LOGO ================================================ */
+table.layout td.logo {
+	text-align: center;
+}
+/* MESTROJE V ZAHLAVI ================================== */
+table.layout td.top a {
+	float: left;
+	margin-right: 10px;
+}
+table.layout td.top a.logout_big {
+	float: right;
+	margin-right: 0;
+}
+/* PRAVE JSTE ZDE ====================================== */
+table.layout td.head {
+	background-color: ButtonFace;
+	text-align: right;
+}
+/* NAVIGACE ============================================ */
+table.layout td.navigation {
+	background-color: ButtonFace;
+}
+/* LEVY SLOUPEC ======================================== */
+table.layout td.left {
+	width: 200px;
+}
+table.layout td.left div.menu {
+	border: 1px solid ButtonFace;
+	margin-bottom: 10px;
+}
+table.layout td.left div.menu div.label {
+	background-color: ButtonFace;
+	font-weight: bold;
+	padding: 2.5 5 2.5 5px;
+}
+table.layout td.left div.menu ul {
+	margin: 0; padding: 0;
+}
+table.layout td.left div.menu ul li {
+	list-style-type: none;
+	margin: 5px;
+}
+/* HLAVNI ============================================== */
+table.layout td.main h3 {
+	font-size: 18px;
+	margin: 5 0 10 0px;
+}
+table.layout td.main div#title h3 {
+	margin: 0; padding: 5px;
+}
+/* seznam polozek */
+table.layout td.main ul.list {
+	margin: 0; padding: 0;
+}
+table.layout td.main ul.list li {
+	list-style-type: none;
+	margin: 0; padding: 2.5 0 2.5 0px;
+}
+/* mapa (pro zadavani souradnic v aplikaci mapy) */
+table.layout td.main div.map {
+	position: relative;
+}
+table.layout td.main div.map img#map {
+	border: 1px solid ButtonFace;
+	display: none;
+}
+table.layout td.main div.map div#point {
+	display: none;
+	position: absolute;
+}
+table.layout td.main iframe.preview {
+	border: 1px solid ButtonFace;
+	margin: 0; padding: 0;
+	width: 100%; height: 400px;
+}
+/* TISK V ADMINISTRACI ================================= */
+@media print {
+	iframe.machine,
+	div.bookmarks,
+	table.layout td.logo,
+	table.layout td.top,
+	table.layout td.head,
+	table.layout td.navigation,
+	table.layout td.left,
+	table.layout td.foot,
+	table.layout td.bottom,
+	table.layout td.main div#title h3 {
+		display: none;
+	}
+	table.layout td.main div#main {
+		margin: 0; padding: 0;
+	}
+}

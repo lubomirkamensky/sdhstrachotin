@@ -1,0 +1,174 @@
+/* DISKUSE ============================================= */
+/* odkaz pro pridani prispevku */
+div.discussion a.new_opinion {
+}
+/* seznam prispevku */
+div.discussion ul {
+	margin: 10 0 0 0px; padding: 0;
+}
+/* prispevek */
+div.discussion ul li {
+	border-top: 1px solid ButtonFace;
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+/* odkaz pro reakci na prispevek */
+div.discussion ul li a.reply {
+	float: right;
+}
+/* odkaz pro odeslani emailu (ikona je nastavena v tools.css) */
+div.discussion ul li a.email {
+}
+/* reakce na prispevek */
+div.discussion ul li ul {
+	margin: 10 0 0 20px; padding: 0;
+}
+/* navigace */
+div.discussion div.navigation {
+	border-top: 1px solid ButtonFace;
+	text-align: center;
+}
+div.discussion div.navigation a {
+	padding: 0 2.5 0 2.5px;
+}
+/* ANKETA ============================================== */
+div.enquiry {
+}
+/* nazev ankety */
+div.enquiry h5 {
+}
+/* moznost k hlasovani */
+div.enquiry div.question {
+	clear: both;
+	padding: 5 0 5 0px;
+	_height: 100%;
+}
+/* roztahnuti velikosti div.question pro FF */
+div.enquiry div.question:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+/* ikona obrazku pro hlasovani */
+div.enquiry div.question div.ico {
+	border: 1px solid ButtonFace;
+	float: left;
+	margin: 0 5 0 0px;
+}
+/* moznost pro hlasovani */
+div.enquiry div.question div.vote {
+	background-color: ButtonFace;
+	height: 6px; line-height: 0;
+	margin: 5 0 0 0px; padding: 0px;
+	overflow: hidden;
+}
+div.enquiry div.question.item_1 div.vote,
+div.enquiry div.question.item_11 div.vote,
+div.enquiry div.question.item_21 div.vote {
+	background-color: #0b007e;
+}
+div.enquiry div.question.item_2 div.vote,
+div.enquiry div.question.item_12 div.vote,
+div.enquiry div.question.item_22 div.vote {
+	background-color: #fc0102;
+}
+div.enquiry div.question.item_3 div.vote,
+div.enquiry div.question.item_13 div.vote,
+div.enquiry div.question.item_23 div.vote {
+	background-color: #01fc2b;
+}
+div.enquiry div.question.item_4 div.vote,
+div.enquiry div.question.item_14 div.vote,
+div.enquiry div.question.item_24 div.vote {
+	background-color: #eefc01;
+}
+div.enquiry div.question.item_5 div.vote,
+div.enquiry div.question.item_15 div.vote,
+div.enquiry div.question.item_25 div.vote {
+	background-color: #fcb901;
+}
+div.enquiry div.question.item_6 div.vote,
+div.enquiry div.question.item_16 div.vote,
+div.enquiry div.question.item_26 div.vote {
+	background-color: #fc01d6;
+}
+div.enquiry div.question.item_7 div.vote,
+div.enquiry div.question.item_17 div.vote,
+div.enquiry div.question.item_27 div.vote {
+	background-color: #01fcd6;
+}
+div.enquiry div.question.item_8 div.vote,
+div.enquiry div.question.item_18 div.vote,
+div.enquiry div.question.item_28 div.vote {
+	background-color: #b9fc01;
+}
+div.enquiry div.question.item_9 div.vote,
+div.enquiry div.question.item_19 div.vote,
+div.enquiry div.question.item_29 div.vote {
+	background-color: #ad01fc;
+}
+div.enquiry div.question.item_10 div.vote,
+div.enquiry div.question.item_20 div.vote,
+div.enquiry div.question.item_30 div.vote {
+	background-color: #fc01a1;
+}
+/* OBCHOD ============================================== */
+div.shop div.ico a img {
+	border: 1px solid ButtonFace;
+}
+div.shop p {
+	margin: 5 0 5 0px;	
+}
+/* vyhledavani */
+div.shop ul.search {
+	margin: 0; padding: 5 0 5 1.5em;
+}
+div.shop ul.search li {
+	padding: 2.5 0 2.5 0px;
+}
+/* nastroje pri objednavani */
+div.shop div.tools {
+	text-align: center;
+}
+div.shop div.tools a {
+	padding: 0 5 0 5px;
+}
+/* tabulka ve formulari */
+div.shop table.detail td.label {
+	width: 25%;
+}
+/* typ produktu (v mainu) ------------------------------ */
+div.shop div.type div.ico {
+	float: left;
+	margin-right: 5px;
+}
+/* produkt (v mainu) ----------------------------------- */
+div.shop table.item {
+	clear: both;
+	width: 100%;
+}
+div.shop table.item td {
+	padding: 0;
+	vertical-align: top;
+}
+/* nadpis */
+div.shop table.item td.title {
+}
+/* fotky */
+div.shop table.item td.images {
+	width: 40%;
+}
+div.shop table.item td.images div.ico {
+	margin: 0 5 5 0px;
+}
+/* popis */
+div.shop table.item td.description div.content {
+}
+/* produkt (v right) ----------------------------------- */
+div.shop div.item {
+	border: 1px solid ButtonFace;
+	margin-bottom: 5px; padding: 5px;
+	text-align: center;
+}

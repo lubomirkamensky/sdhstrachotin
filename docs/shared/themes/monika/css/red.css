@@ -1,0 +1,38 @@
+/* IMPORT SDILENYCH NASTAVENI ========================== */
+@import url("default.css");
+/* ===================================================== */
+a {
+	color: #a31416;
+}
+form input {
+	border: 1px solid #96c72d;
+}
+form input.submit {
+	background-color: #96c72d;
+	border: 1px solid #96c72d;
+}
+table.layout td.top div.content {
+	color: #970303;
+}
+table.layout td.head div.content {
+	background: url("../images/bg/head_red.jpg") no-repeat;
+}
+table.layout td.middle {
+	background: url("../images/bg/middle_red.jpg") no-repeat top;
+}
+table.layout td.middle table.layout td.left div.content ul.menu li a {
+	background-image: url("../images/bg/menu_item_red.gif");
+	color: #a31416;
+}
+table.layout td.middle table.layout td.left div.content ul.menu li.active a {
+	background-color: #af5516;
+}
+table.layout td.middle table.layout td.left div.content h3 {
+	background-color: #96c72c;
+}
+table.layout td.middle table.layout td.main div.content h3 {
+	background: url("../images/bg/title_red.gif") repeat-x;
+}
+table.layout td.bottom div.content {
+	background: url("../images/bg/bottom_red.gif") repeat-x;
+}

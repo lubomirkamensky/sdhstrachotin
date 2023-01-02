@@ -1,0 +1,154 @@
+body {
+	text-align: center;
+}
+body, table {
+	font-family: sans-serif; font-size: 12px;
+}
+a:hover {
+	color: #000000;
+}
+/* formulare */
+form input {
+	background-color: #ffffff;
+	border: 1px solid;
+	_height: 20px;
+}
+form input.submit {
+	border: 1px solid;
+	color: #ffffff;
+	_height: 20px;
+}
+div.shadow {
+	margin: 0 auto 0 auto;
+	width: 810px; _height: 100%;
+}
+/* LAYOUT ============================================== */
+table.layout {
+	background-color: #ffffff;
+	margin: 0 auto 0 auto;
+	text-align: left;
+	width: 760px;
+}
+/* top ------------------------------------------------- */
+table.layout td.top {
+	background: url("../images/bg/logo.gif") no-repeat left;
+	height: 60px;
+	text-align: right;
+}
+table.layout td.top div.content {
+	padding: 0 30 0 0px;
+}
+/* head ------------------------------------------------ */
+table.layout td.head {
+	color: #ffffff;
+	font-size: 19px;
+	height: 163px;
+	text-align: right;
+	vertical-align: middle;
+}
+table.layout td.head div.content {
+	padding: 0 30 0 0px;
+}
+/* left ------------------------------------------------ */
+table.layout td.left {
+	background-color: #efe4e4;
+	color: #505050;
+	width: 220px;
+}
+table.layout td.left div.content {
+	padding: 0 0 20 0px;
+}
+/* menu */
+table.layout td.left div.content ul.menu {
+	margin-bottom: 20px;
+}
+table.layout td.left div.content ul.menu li a {
+	background: #e3e7df url("../images/bg/menu_item.gif") no-repeat left;
+	border-bottom: 2px inset #ffffff;
+	color: #000000;
+	font-weight: bold;
+	padding: 3 3 3 34px;
+	text-decoration: none; text-transform: uppercase;
+	width: 100%;
+}
+table.layout td.left div.content ul.menu li a:hover {
+	text-decoration: underline;
+}
+table.layout td.left div.content ul.menu li > a {
+	display: block;
+	width: auto;
+}
+table.layout td.left div.content ul.menu li.active a {
+	color: #ffffff;
+}
+table.layout td.left div.content ul.menu li ul {
+	top: 0; left: 220px;
+	width: 220px;
+}
+table.layout td.left div.content h3 {
+	color: #ffffff;
+	font-size: 12px;
+	margin: 0; padding: 3 3 3 34px;
+	text-transform: uppercase;
+}
+table.layout td.left div.content h4 {
+	font-size: 14px;
+	margin-top: 0;
+}
+table.layout td.left div.content div.text,
+table.layout td.left div.content form.login {
+	background-color: #eeeeee;
+	border: 1px solid #ffffff;
+	margin: 10px; padding: 10 24 10 24px;	
+}
+table.layout td.left div.content form.login input.submit {
+	margin-top: 5px;
+}
+/* main ------------------------------------------------ */
+table.layout td.main {
+	width: 540px;
+}
+table.layout td.main div.content {
+	border: 1px solid #e4e7e0;
+	margin: 0 30 20 20px; padding: 10px;
+}
+table.layout td.main div.content h3 {
+	border-bottom: 4px solid #e2e7e0;
+	color: #ffffff;
+	font-size: 18px;
+	margin: -10 -10 10 -10px; padding: 5 10 5 10px;
+}
+table.layout td.main div.content h4 {
+	font-size: 16px;
+}
+table.layout td.main div.content h5 {
+	font-size: 14px;
+}
+table.layout td.main div.content div.text {
+	line-height: 140%;
+}
+/* fotogalerie */
+table.layout td.main div.content div.images div.ico {
+	background-color: #efe4e4;
+	line-height: 100%;
+}
+table.layout td.main div.content div.images div a img,
+table.layout td.main div.content img.foto {	
+	border-color: #e4e7e0;
+}
+/* uriznute ikony u souboru a nastroju (pokud je mala velikost pisma) */
+table.layout td.main div.content div.alert,
+table.layout td.main div.content div.info,
+table.layout td.main div.content div.files div.ico a {
+	padding: 2.5 0 2.5 20px;
+}
+/* bottom --------------------------------------------- */
+table.layout td.bottom {
+	color: #ffffff;
+	font-size: 11px;
+	height: 44px;
+	text-align: center;
+}
+table.layout td.bottom div.content a {
+	color: #ffffff;
+}

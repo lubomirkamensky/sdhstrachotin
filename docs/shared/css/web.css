@@ -1,0 +1,155 @@
+/* IMPORT SDILENYCH NASTAVENI ========================== */
+@import url("../highslide/highslide.css");
+/* ===================================================== */
+body {
+	margin: 0; padding: 0;
+}
+img,
+form,
+iframe.machine {
+	border: 0;
+	margin: 0; padding: 0;
+}
+h3,
+h4,
+h5 {
+	margin: 10 0 10 0px; padding: 0;
+}
+/* obsah stranky, odkazy a vyhledavani */
+ul.preview,
+ul.links,
+ul.files,
+ul.search {
+	margin: 0; padding: 5 0 5 1.5em;
+}
+ul.preview li,
+ul.links li,
+ul.files li,
+ul.search li {
+	padding: 2.5 0 2.5 0px;
+}
+/* vycisteni obtekani */
+div.images,
+div.images div.ico_label,
+div.files,
+div.text {
+	clear: both;
+}
+/* TEXT ================================================ */
+div.text big {
+}
+div.text small {
+}
+div.text sub {
+}
+div.text sup {
+}
+div.text cita {
+}
+div.text span.important {
+	color: red;
+}
+div.text img.foto {
+	border: 1px solid;
+	margin: 5 10 5 10px;
+}
+/* slouzi k realizaci odsazeni */
+div.text blockquote {
+	margin: 5 0 5 20px;
+}
+div.text p {
+	margin: 5 0 5 0px;
+}
+/* odkaz "nahoru" */
+div.text a.top {
+	float: right;
+}
+/* HTML obsah */
+div.text div.html {
+}
+/* popis */
+div.text div.description {
+	margin: 5 0 5 0px;
+}
+/* OBRAZKY ============================================= */
+div.images {
+	_height: 100%;
+}
+/* roztahnuti velikosti div.images pro FF */
+div.images:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+div.images div a img {
+	border: 1px solid;
+	margin-bottom: 5px;
+}
+/* ikony vedle sebe ------------------------------------ */
+div.images div.ico {
+	background-color: ButtonFace;
+	float: left;
+	margin: 5 10 5 0px; padding: 5px;
+	text-align: center;
+}
+/* SOUBORY ============================================= */
+div.files {
+	_height: 100%;
+}
+/* roztahnuti velikosti div.files pro FF */
+div.files:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+/* male ikony nebo bez ikon ---------------------------- */
+div.files div.ico,
+div.files div.none {
+	margin: 5 0 5 0px;
+}
+/* velke ikony ----------------------------------------- */
+div.files div.big {
+	float: left;
+	margin: 5 10 5 0px;
+	text-align: center;
+	width: 150px; height: 100px;
+}
+div.files div.big a {
+	display: block;
+	width: 100%;
+}
+/* ODKAZY ============================================== */
+div.links {
+}
+div.links ul.rollover {
+	clear: both;
+}
+div.links ul.rollover li {
+	border: 0;
+	background-color: transparent;
+	padding: 0;
+}
+div.links div.link {
+	clear: both;
+	margin: 0 0 10 0px;
+}
+div.links div.link img.ico {
+	float: left;
+	padding: 0 2.5 2.5 0px;
+}
+div.links div.link h5 {
+	margin: 2.5 0 2.5 0px; padding: 0;
+}
+div.links div.link div.description {
+	margin: 0 0 5 0px;
+}
+div.links div.link a.more {
+}
+div.links a.all {
+	clear: both;
+	display: block;
+}

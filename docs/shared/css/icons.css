@@ -1,0 +1,60 @@
+/* MALE IKONY SOUBORU ================================== */
+.doc,
+.gif,
+.htm,
+.mp3,
+.jpg,
+.pdf,
+.ppt,
+.rtf,
+.sxc,
+.sxw,
+.txt,
+.xls,
+.zip {
+	background: no-repeat top left;
+	padding-left: 20px;
+}
+.doc,
+.rtf {	background-image: url("../images/icons/doc.gif");}
+.gif {	background-image: url("../images/icons/gif.gif");}
+.htm {	background-image: url("../images/icons/htm.gif");}
+.jpg {	background-image: url("../images/icons/jpg.gif");}
+.mp3 {	background-image: url("../images/icons/mp3.gif");}
+.pdf {	background-image: url("../images/icons/pdf.gif");}
+.ppt {	background-image: url("../images/icons/ppt.gif");}
+.sxc {	background-image: url("../images/icons/sxc.gif");}
+.sxw {	background-image: url("../images/icons/sxw.gif");}
+.txt {	background-image: url("../images/icons/txt.gif");}
+.xls {	background-image: url("../images/icons/xls.gif");}
+.zip {	background-image: url("../images/icons/zip.gif");}
+/* VELKE IKONY SOUBORU ================================= */
+.doc_big,
+.gif_big,
+.htm_big,
+.mp3_big,
+.jpg_big,
+.pdf_big,
+.ppt_big,
+.rtf_big,
+.sxc_big,
+.sxw_big,
+.txt_big,
+.xls_big,
+.zip_big {
+	background: no-repeat top center;
+	padding-top: 35px;
+}
+.doc_big,
+.rtf_big {	background-image: url("../images/icons/doc_big.gif");}
+.gif_big {	background-image: url("../images/icons/gif_big.gif");}
+.htm_big {	background-image: url("../images/icons/htm_big.gif");}
+.jpg_big {	background-image: url("../images/icons/jpg_big.gif");}
+.jpg_mp3 {	background-image: url("../images/icons/mp3_big.gif");}
+.pdf_big {	background-image: url("../images/icons/pdf_big.gif");}
+.ppt_big {	background-image: url("../images/icons/ppt_big.gif");}
+.sxc_big {	background-image: url("../images/icons/sxc_big.gif");}
+.sxw_big {	background-image: url("../images/icons/sxw_big.gif");}
+.txt_big {	background-image: url("../images/icons/txt_big.gif");}
+.xls_big {	background-image: url("../images/icons/xls_big.gif");}
+.zip_big {	background-image: url("../images/icons/zip_big.gif");}

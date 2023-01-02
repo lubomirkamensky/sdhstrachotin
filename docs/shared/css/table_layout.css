@@ -1,0 +1,84 @@
+/* LAYOUT STRANKY ====================================== */
+table.layout {
+	width: 100%; height: 100%;
+}
+/* bunka tabulky */
+table.layout td.top,
+table.layout td.head,
+table.layout td.left,
+table.layout td.logo,
+table.layout td.middle,
+table.layout td.main,
+table.layout td.menu,
+table.layout td.navigation,
+table.layout td.path,
+table.layout td.language,
+table.layout td.right,
+table.layout td.search,
+table.layout td.foot,
+table.layout td.bottom {
+	padding: 0;
+}
+table.layout td.left,
+table.layout td.middle,
+table.layout td.main,
+table.layout td.right {
+	vertical-align: top;
+}
+table.layout td.main div.content {
+	_width: 100%;
+}
+/* ROZVRZENI TEXTU ===================================== */
+table.page {
+	width: 100%;
+}
+table.page td.cell,
+table.page td.cell_left,
+table.page td.cell_middle, 
+table.page td.cell_right,
+table.page td.cell_bottom {
+	padding: 0;
+	vertical-align: top;
+}
+table.page td.cell div.content ,
+table.page td.cell_left div.content, 
+table.page td.cell_middle div.content, 
+table.page td.cell_right div.content,
+table.page td.cell_bottom div.content,{
+	_width: 100%; _height: 100%;
+}
+/* ROZVRZENI BLOKU ===================================== */
+table.block {
+	width: 100%;
+}
+table.block td {
+	padding: 0;
+	vertical-align: top;
+}
+table.block td.image div.images div.ico {
+	float: right;
+}
+/* TISK ================================================ */
+@media print {
+	table.layout tr.top,
+	table.layout tr.head,
+	table.layout tr.foot,
+	table.layout tr.bottom,
+	table.layout td.top,
+	table.layout td.head,
+	table.layout td.left,
+	table.layout td.logo,
+	table.layout td.menu,
+	table.layout td.navigation,
+	table.layout td.path,
+	table.layout td.language,
+	table.layout td.right,
+	table.layout td.search,
+	table.layout td.foot,
+	table.layout td.bottom {
+		display: none;
+	}
+	table.layout td.main div.content {
+		margin: 0; padding: 0;
+	}
+}

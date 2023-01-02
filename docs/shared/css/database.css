@@ -1,0 +1,45 @@
+/* FILTR =============================================== */
+form.filter {
+	background-color: ButtonFace;
+	margin: 0 2.5 10 2.5px; padding: 0;
+}
+form.filter table td {
+	 padding: 2.5px;
+	 vertical-align: top;
+}
+/* vyberovy prvek */
+form.filter select {
+	background-color: ButtonFace;
+}
+/* TABULKA S DETAILEM ================================== */
+table.detail {
+	width: 100%;
+}
+table.detail td {
+	padding: 2.5px;
+}
+/* popis */
+table.detail td.label {
+	text-align: right;
+	vertical-align: top;
+	width: 20%;
+}
+/* TABULKA S PREHLEDEM ================================= */
+table.list {
+	width: 100%;
+}
+table.list td {
+	padding: 2.5 5 2.5 5px;
+}
+table.list td input.radio {
+	height: 10px;
+}
+/* zahlavi a zapati */
+table.list thead td,
+table.list tfoot td {
+	background-color: ButtonFace;
+}
+table.list tfoot td a {
+	float: left;
+	margin: 0 2.5 0 2.5px;
+}

@@ -1,0 +1,39 @@
+/* nastrojova lista */
+.editor_toolbar {
+	background-color: ButtonFace;	
+}
+/* nastroj */
+.editor_toolbar a {
+	background-repeat: no-repeat; background-position: center center;
+	border: 1px solid ButtonFace;
+	display: block;
+	float: left;
+	width: 25px; height: 25px;			
+}
+.editor_toolbar select {
+	margin-left: 20px;
+}
+/* aktivni nastroj */
+.editor_toolbar a:hover {
+	border: 1px outset; border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+/* ikony nastroju */
+.editor_toolbar a.bold {background-image: url("../images/editor/bold.gif");}
+.editor_toolbar a.italic {background-image: url("../images/editor/italic.gif");}
+.editor_toolbar a.underline {background-image: url("../images/editor/underline.gif");}
+.editor_toolbar a.left {background-image: url("../images/editor/left.gif");}
+.editor_toolbar a.center {background-image: url("../images/editor/center.gif");}
+.editor_toolbar a.right {background-image: url("../images/editor/right.gif");}
+.editor_toolbar a.justify {background-image: url("../images/editor/justify.gif");}
+.editor_toolbar a.indent {background-image: url("../images/editor/indent.gif");}
+.editor_toolbar a.outdent {background-image: url("../images/editor/outdent.gif");}
+.editor_toolbar a.unordered {background-image: url("../images/editor/unordered.gif");}
+.editor_toolbar a.ordered {background-image: url("../images/editor/ordered.gif");}
+.editor_toolbar a.hr {background-image: url("../images/editor/hr.gif");}
+.editor_toolbar a.hr {background-image: url("../images/editor/hr.gif");}
+.editor_toolbar a.link {background-image: url("../images/editor/link.gif");}
+.editor_toolbar a.table {background-image: url("../images/editor/table.gif");}
+.editor_toolbar a.add_row {background-image: url("../images/editor/add_row.gif");}
+.editor_toolbar a.del_row {background-image: url("../images/editor/del_row.gif");}
+.editor_toolbar a.mode {background-image: url("../images/editor/mode.gif");}
+.editor_toolbar a.check {background-image: url("../images/editor/check.gif");}

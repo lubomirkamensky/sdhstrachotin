@@ -1,0 +1,188 @@
+/* MALE IKONY NASTROJU ================================= */
+.asc,
+.alert,
+.desc,
+.back,
+.check_versions,
+.print,
+.view,
+.view_alert,
+.view_application,
+.view_attachments,
+.view_desktop,
+.view_document,
+.view_explorer,
+.view_file,
+.view_files,
+.view_folder,
+.view_image,
+.view_images,
+.view_inbox,
+.view_patterns,
+.view_project,
+.view_task,
+.view_tool,
+.view_tools,
+.view_users,
+.view_permission,
+.edit_text,
+.location,
+.property,
+.permission,
+.position,
+.preview,
+.preview_document,
+.publish_project,
+.publish_document,
+.export,
+.close,
+.copy,
+.delete,
+.delete_history,
+.delete_project_history,
+.workflow,
+.open,
+.add,
+.history,
+.new_alert,
+.new_document,
+.new_directory,
+.new_file,
+.new_files,
+.new_image,
+.new_images,
+.new_text,
+.new_application,
+.new_search,
+.new_map,
+.new_link,
+.new_login,
+.new_user,
+.new_group,
+.import,
+.import_files,
+.import_images,
+.refresh,
+.email,
+.tip,
+.info {
+	background: no-repeat top left;
+	padding-left: 20px;
+}
+.asc {
+	background-image: url("../images/tools/sort_asc.gif");
+}
+.alert {
+	background-image: url("../images/tools/alert.gif");
+}
+.desc {
+	background-image: url("../images/tools/sort_desc.gif");
+}
+.back {
+	background-image: url("../images/tools/back.gif");
+}
+.check_versions {
+	background-image: url("../images/tools/ok.gif");
+}
+.print {
+	background-image: url("../images/tools/print.gif");
+}
+.open,
+.view,
+.view_alert,
+.view_application,
+.view_attachments,
+.view_desktop,
+.view_document,
+.view_explorer,
+.view_file,
+.view_files,
+.view_folder,
+.view_image,
+.view_images,
+.view_inbox,
+.view_patterns,
+.view_project,
+.view_task,
+.view_tool,
+.view_tools,
+.view_users,
+.view_permission {
+	background-image: url("../images/tools/open.gif");
+}
+.location {
+	background-image: url("../images/tools/location.gif");
+}
+.property {
+	background-image: url("../images/tools/edit.gif");
+}
+.permission {
+	background-image: url("../images/tools/permission.gif");
+}
+.position {
+	background-image: url("../images/tools/position.gif");
+}
+.publish_project,
+.publish_document,
+.export {
+	background-image: url("../images/tools/publish.gif");
+}
+.close,
+.delete,
+.delete_history,
+.delete_project_history {
+	background-image: url("../images/tools/delete.gif");
+}
+.workflow {
+	background-image: url("../images/tools/workflow.gif");
+}
+.add {
+	background-image: url("../images/tools/add.gif");
+}
+.tip {
+	background-image: url("../images/tools/tip.gif");
+}
+.refresh {
+	background-image: url("../images/tools/refresh.gif");
+}
+.history {
+	background-image: url("../images/tools/history.gif");
+}
+.email {
+	background-image: url("../images/tools/email.gif");
+}
+.info {
+	background-image: url("../images/tools/info.gif");
+}
+/* VELKE IKONY NASTROJU ================================ */
+.add_big,
+.help_big,
+.logout_big,
+.open_big,
+.publish_big,
+.search_big,
+.workflow_big {
+	background: no-repeat top center;
+	padding-top: 35px;
+}
+.add_big {
+	background-image: url("../images/tools/add_big.gif");
+}
+.help_big {
+	background-image: url("../images/tools/help_big.gif");
+}
+.logout_big {
+	background-image: url("../images/tools/logout_big.gif");
+}
+.open_big {
+	background-image: url("../images/tools/open_big.gif");
+}
+.publish_big {
+	background-image: url("../images/tools/publish_big.gif");
+}
+.search_big {
+	background-image: url("../images/tools/search_big.gif");
+}
+.workflow_big {
+	background-image: url("../images/tools/workflow_big.gif");
+}

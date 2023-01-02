@@ -1,0 +1,22 @@
+/* TABULKA ======================================================= */
+.header-row {
+}
+.table-row {
+}
+.odd-table-row {
+}
+.selected-table-row {
+}
+.hover-table-row {
+	background-color: ButtonFace;
+	cursor: Hand; _cursor: Pointer;
+}
+.header-cell {
+	background-image: none;
+	font-weight: bold;
+	text-align: center;
+}
+.table-cell {
+}
+.row-number-cell {
+}

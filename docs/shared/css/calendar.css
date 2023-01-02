@@ -1,0 +1,26 @@
+/* okno kalendare */
+div.calendar {
+	background-color: ButtonFace;
+	border: 2px outset;
+	width: 200px;
+}
+div.calendar table.calendar {
+	width:100%;
+}
+/* navigace */
+div.calendar table.calendar tr.navigation {
+}
+/* jmena dnu */
+div.calendar table.calendar tr.head {
+}
+/* dny mesice */
+div.calendar table.calendar tr.days td {
+	text-align: center;
+	width: 14%;
+}
+div.calendar table.calendar tr.days td.active {
+	font-weight: bold;
+}
+/* zapati */
+div.calendar table.calendar tr.foot {
+}

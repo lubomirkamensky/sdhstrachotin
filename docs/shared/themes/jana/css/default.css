@@ -1,0 +1,158 @@
+body {
+	background-color: #ffffff;
+}
+body, table {
+	font-family: sans-serif; font-size: 12px;
+}
+a:hover {
+	color: #000000;
+}
+/* formulare */
+form input {
+	background-color: #ffffff;
+	border: 0;
+	_height: 20px;
+}
+form input.submit {
+	border: 0;
+	color: #ffffff;
+	_height: 20px;
+}
+/* LAYOUT ============================================== */
+table.layout td {
+	text-align: center;
+}
+table.layout td div.content {
+	margin: 0 auto 0 auto;
+}
+/* top ------------------------------------------------- */
+table.layout td.top {
+	height: 77px;
+}
+table.layout td.top div.content {
+	background: url("../images/bg/logo.gif") no-repeat bottom;
+	color: #000000;
+	font-size: 16px; font-weight: bold;
+	padding: 60 0 0 0px;
+	text-align: right;
+	width: 760px; height: 128px; _height: 188px;
+}
+/* vyhledavani */
+table.layout td.top div.content form.search input.text {
+	margin-right: 5px;
+}
+/* middle ---------------------------------------------- */
+table.layout td.middle table.layout {
+	margin: 0 auto 0 auto;
+	width: 760px;
+}
+table.layout td.middle table.layout td {
+	text-align: left;
+}
+/* left ------------------------------------------------ */
+table.layout td.middle table.layout td.left {
+	color: #505050;
+	width: 220px;
+}
+table.layout td.middle table.layout td.left div.content {
+	padding: 0 0 20 0px;
+}
+/* menu */
+table.layout td.middle table.layout td.left div.content ul.menu li a {
+	background: url("../images/bg/menu_item.gif") no-repeat left;
+	border-bottom: 1px dotted #95c72a;
+	color: #a31416;
+	font-weight: bold;
+	padding: 3 3 3 34px;
+	text-decoration: none; text-transform: uppercase;
+	width: 100%;
+}
+table.layout td.middle table.layout td.left div.content ul.menu li a:hover {
+	text-decoration: underline;
+}
+table.layout td.middle table.layout td.left div.content ul.menu li > a {
+	display: block;
+	width: auto;
+}
+table.layout td.middle table.layout td.left div.content ul.menu li.active a {
+	background-image: none;
+	border-bottom: 0;
+	color: #ffffff;
+}
+table.layout td.middle table.layout td.left div.content ul.menu li ul {
+	background-color: #ffffff;
+	top: 0; left: 220px;
+	width: 220px;
+}
+table.layout td.middle table.layout td.left div.content h3 {
+	background-color: #96c72c;
+	color: #ffffff;
+	font-size: 12px; font-weight: bold;
+	margin-top: 20px;padding: 3 3 3 34px;
+	text-decoration: none; text-transform: uppercase;
+}
+table.layout td.middle table.layout td.left div.content h4 {
+	font-size: 14px;
+	margin-top: 0;	
+}
+table.layout td.middle table.layout td.left div.content div.text,
+table.layout td.middle table.layout td.left div.content form.login {
+	background-color: #eeeeee;
+	margin: 0 10 10 10px; padding: 10 0 10 24px;
+}
+table.layout td.middle table.layout td.left div.content form.login input.submit {
+	margin-top: 5px;
+}
+/* main ------------------------------------------------ */
+table.layout td.middle table.layout td.main {
+	width: 540px;
+}
+table.layout td.middle table.layout td.main div.content {
+	background-color: #fbfbfb;
+	border: 1px solid #eeeeee;
+	margin: 0 0 10 30px; padding: 10px;
+}
+table.layout td.middle table.layout td.main div.content h3 {
+	color: #ffffff;
+	font-size: 18px;
+	margin: -11 -11 10 -11px; padding: 10 10 0 10px;
+	height: 58px;
+	position: relative;
+}
+table.layout td.middle table.layout td.main div.content h4 {
+	font-size: 16px;
+}
+table.layout td.middle table.layout td.main div.content h5 {
+	font-size: 14px;
+}
+table.layout td.middle table.layout td.main div.content div.text {
+	line-height: 140%;
+}
+/* fotogalerie */
+table.layout td.middle table.layout td.main div.content div.images div.ico {
+	background-color: #efe4e4;
+	line-height: 100%;
+}
+table.layout td.middle table.layout td.main div.content div.images div a img,
+table.layout td.middle table.layout td.main div.content img.foto {	
+	border-color: #e4e7e0;
+}
+/* uriznute ikony u souboru a nastroju (pokud je mala velikost pisma) */
+table.layout td.middle table.layout td.main div.content div.alert,
+table.layout td.middle table.layout td.main div.content div.info,
+table.layout td.middle table.layout td.main div.content div.files div.ico a {
+	padding: 2.5 0 2.5 20px;
+}
+/* bottom --------------------------------------------- */
+table.layout td.bottom {
+	background: url("../images/bg/bottom.gif") repeat-x;
+	font-size: 11px;
+	height: 44px;
+}
+table.layout td.bottom div.content {
+	padding: 15 0 0 0px;
+	width: 760px; height: 29px; _height: 44px;
+}
+table.layout td.bottom div.content a {
+	color: #000000;
+}

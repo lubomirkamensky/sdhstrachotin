@@ -1,0 +1,35 @@
+/* prepinace */
+div.bookmarks ul.switches {
+	border-bottom: 1px solid ButtonFace;
+	margin: 0; padding: 0;
+}
+/* prepinac */
+div.bookmarks ul.switches li.switch {
+	background-color: ButtonFace;
+	border: 1px solid ButtonFace;
+	display: inline;
+	list-style-type: none;
+	margin-right: 5px; padding: 2.5 5 0 5px;
+}
+/* aktivni prepinac */
+div.bookmarks ul.switches li.switch.active {
+	background-color: Window;
+	border-bottom: 1px solid Window;
+}
+/* zalozka */
+div.bookmarks div.bookmark {	
+	padding: 5px;
+	_width: 100%;
+}
+/* aktivni zalozka */
+div.bookmarks div.bookmark.active {
+	background-color: Window;
+	border: 1px solid ButtonFace; border-top: none;
+}
+/* zruseni nastaveni pro vnorene bookmarky */
+div.bookmarks div.bookmark div.bookmarks div.bookmark {
+	padding: 0;
+}
+div.bookmarks div.bookmark div.bookmarks div.bookmark.active {
+	border: none;
+}

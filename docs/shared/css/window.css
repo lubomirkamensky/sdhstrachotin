@@ -1,0 +1,33 @@
+/* okno */
+div.window {
+	background-color: Window;	
+	border: 1px solid ButtonFace;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#666666', Direction=135, Strength=3);
+	padding: 5 10 5 10px;
+	overflow: auto;
+	position: fixed; _position: absolute; top: 5px; top: expression(body.scrollTop + 5 +"px"); left: 5px;
+	width: 500px; height: 300px;
+	z-index: 1;
+}
+/* nastrojova lista */
+div.window div.menu {
+	text-align: right;
+}
+/* nastroj */
+div.window div.menu a {
+	margin-left: 5px;
+}
+/* ikony nastroju */
+div.window div.menu a.close {}
+div.window div.menu a.print {}
+/* TISK ================================================ */
+@media print {
+	div.window {
+		border: 0;
+		filter: none;
+		position: static;
+	}
+	div.window div.menu {		
+		display: none;
+	}
+}

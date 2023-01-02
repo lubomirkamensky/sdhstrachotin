@@ -1,0 +1,100 @@
+/* MALE IKONY ELEMENTU ================================= */
+.database,
+.element_dir,
+.element_ims,
+.element_img,
+.element_fis,
+.element_fil,
+.element_txt,
+.element_doc,
+.element_alt,
+.element_tsk,
+.element_log,
+.element_srh,
+.element_map,
+.element_app,
+.element_lnk,
+.element_adm,
+.element_sys,
+.element_grp,
+.element_own,
+.element_usr {
+	background: no-repeat top left;
+	padding-left: 20px;
+}
+.database {
+	background-image: url("../images/elements/database.gif");
+}
+.element_dir {
+	background-image: url("../images/elements/folder.gif");
+}
+.element_ims {
+	background-image: url("../images/elements/images.gif");
+}
+.element_img {
+	background-image: url("../images/elements/image.gif");
+}
+.element_fis {
+	background-image: url("../images/elements/files.gif");
+}
+.element_fil {
+	background-image: url("../images/elements/file.gif");
+}
+.element_txt {
+	background-image: url("../images/elements/text.gif");
+}
+.element_doc {
+	background-image: url("../images/elements/document.gif");
+}
+.element_alt {
+	background-image: url("../images/elements/alert.gif");
+}
+.element_tsk {
+	background-image: url("../images/elements/task.gif");
+}
+.element_lnk {
+	background-image: url("../images/editor/link.gif");
+}
+.element_log,
+.element_srh,
+.element_map,
+.element_app {
+	background-image: url("../images/elements/application.gif");
+}
+.element_adm,
+.element_sys,
+.element_grp {
+	background-image: url("../images/elements/group.gif");
+}
+.element_own,
+.element_usr {
+	background-image: url("../images/elements/user.gif");
+}
+/* VELKE IKONY ELEMENTU ================================ */
+.databases_big,
+.element_dst_big,
+.element_exp_big,
+.element_inb_big,
+.element_per_big,
+.element_pts_big {
+	background: no-repeat top center;
+	padding-top: 35px;
+}
+.databases_big {
+	background-image: url("../images/elements/databases_big.gif");
+}
+.element_dst_big {
+	background-image: url("../images/elements/desktop_big.gif");
+}
+.element_exp_big {
+	background-image: url("../images/elements/explorer_big.gif");
+}
+.element_inb_big {
+	background-image: url("../images/elements/inbox_big.gif");
+}
+.element_per_big {
+	background-image: url("../images/elements/permission_big.gif");
+}
+.element_pts_big {
+	background-image: url("../images/elements/patterns_big.gif");
+}

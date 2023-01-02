@@ -1,0 +1,27 @@
+/* strom */
+ul.tree,
+ul.tree ul {
+	margin: 0; padding: 0;
+}
+/* polozka stromu */
+ul.tree li {
+	background: url("../images/tree/middle.gif") repeat-y left;
+	list-style-type: none;
+	margin: 0; padding: 2.5 0 2.5 0px;
+}
+/* prvni polozka */
+ul.tree li.first {
+	background: url("../images/tree/middle.gif") repeat-y left;
+}
+/* posledni polozka */
+ul.tree li.last {
+	background: url("../images/tree/last.gif") no-repeat left top;
+}
+/* zanorena uroven */
+ul.tree li ul {
+	margin-top: 2.5px;
+}
+/* polozka zanorene urovne */
+ul.tree li li {
+	margin-left: 16px;
+}

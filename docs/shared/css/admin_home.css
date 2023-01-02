@@ -1,0 +1,22 @@
+/* IMPORT SDILENYCH NASTAVENI ========================== */
+@import url("admin.css");
+/* LAYOUT ============================================== */
+table.layout {
+	height: 100%;
+}
+/* center ---------------------------------------------- */
+table.layout td.center {
+	text-align: center;
+	vertical-align: middle;
+}
+table.layout td.center a.lang {
+	background: no-repeat top center;
+	line-height: 100px;
+	padding: 20 5 0 5px;
+}
+table.layout td.center a.lang.cs {
+	background-image: url("../images/langs/cs.gif");
+}
+table.layout td.center a.lang.en {
+	background-image: url("../images/langs/en.gif");
+}
